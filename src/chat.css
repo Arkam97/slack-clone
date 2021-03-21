@@ -1,0 +1,39 @@
+.chat {
+    flex: 0.7;
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding-bottom: 150px;
+}
+
+.cheat_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.header_right > p {
+    display: flex;
+    align-items: center;
+    font-size: 14px ;
+}
+
+.header_right > p > .MuiSvgIcon-root {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.chanel_name {
+    text-transform: lowercase;
+}
+
+.chanel_name > .MuiSvgIcon-root {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.chanel_name {
+    display: flex;
+    align-items: center;
+}

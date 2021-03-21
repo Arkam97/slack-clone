@@ -1,0 +1,30 @@
+.CahtInput {
+    border-radius: 20px;
+    
+}
+
+.CahtInput > form {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.CahtInput > form > input {
+    position: fixed;
+    bottom: 30px;
+    width: 70%;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+.CahtInput > form > input:focus {
+    outline: none;
+}
+
+
+.CahtInput > form > button {
+    display: none;
+}
